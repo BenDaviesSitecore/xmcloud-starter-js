@@ -67,6 +67,7 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
                     rendering={route}
                   />
                 )}
+                Test
               </div>
             </main>
             <footer>
