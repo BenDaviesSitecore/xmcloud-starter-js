@@ -4,6 +4,7 @@ import { BYOCServerWrapper, NextjsContentSdkComponent, FEaaSServerWrapper } from
 import { Form } from '@sitecore-content-sdk/nextjs';
 
 // end of built-in components
+import * as Title from 'src/components/Title';
 import * as StructuredData from 'src/components/structured-data/StructuredData';
 import * as RichText from 'src/components/rich-text/RichText';
 import * as Promo from 'src/components/promo/Promo';
@@ -14,6 +15,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['BYOCWrapper', BYOCServerWrapper],
   ['FEaaSWrapper', FEaaSServerWrapper],
   ['Form', { ...Form, componentType: 'client' }],
+  ['Title', { ...Title }],
   ['StructuredData', { ...StructuredData }],
   ['RichText', { ...RichText }],
   ['Promo', { ...Promo }],
