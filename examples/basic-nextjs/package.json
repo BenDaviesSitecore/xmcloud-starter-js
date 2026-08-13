@@ -25,11 +25,14 @@
     "@sitecore-content-sdk/events": "^2.1.0",
     "@sitecore-content-sdk/nextjs": "^2.1.0",
     "@sitecore-content-sdk/personalize": "^2.1.0",
+    "bootstrap": "^5.3.8",
+    "font-awesome": "^4.7.0",
     "next": "^16.2.6",
     "next-intl": "^4.9.1",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
-    "rsc-env": "0.0.2"
+    "rsc-env": "0.0.2",
+    "sass": "^1.102.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
